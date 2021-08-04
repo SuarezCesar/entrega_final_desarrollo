@@ -1,0 +1,44 @@
+#mainFaq {
+  padding: 3rem;
+  min-height: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgFaq {
+  width: 100%;
+  height: 100%;
+  justify-content: left;
+}
+
+.faqTitle {
+  font-size: 25px;
+}
+
+.listaPreguntas {
+  list-style-type: none;
+  padding-left: 4%;
+  padding-top: 2%;
+  padding-right: 3.43%;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.liFaq {
+  font-family: "Mukta", sans-serif;
+  font-size: 20px;
+}
+
+.liFaqPreg {
+  font-family: "Mukta", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 1399px) {
+  .imgFaq {
+    display: none;
+  }
+}

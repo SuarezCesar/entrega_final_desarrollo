@@ -1,0 +1,67 @@
+@mixin estiloTitPlanes($color) {
+  background-color: $color;
+  text-align: justify;
+  text-align: center;
+  padding-top: 0.8rem;
+}
+
+.plan1 {
+  @include estiloTitPlanes(rgb(43, 106, 158));
+  padding: 1rem;
+}
+
+.plan2 {
+  @include estiloTitPlanes(rgb(76, 128, 172));
+  padding: 1rem;
+}
+
+.plan3 {
+  @include estiloTitPlanes(rgb(57, 126, 182));
+  padding: 1rem;
+}
+
+.colClara {
+  background-color: #dedfdf;
+}
+
+.colOscura {
+  background-color: #bfbfbf;
+}
+.contenedorPrincipal {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  .claseColumna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    div {
+      width: 100%;
+    }
+  }
+  .precio {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .descripcion {
+    padding: 1rem;
+    font-size: 23px;
+    color: #1d1e1f;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+  .listaPlanes {
+    font-size: 20px;
+    list-style-position: inside;
+  }
+}

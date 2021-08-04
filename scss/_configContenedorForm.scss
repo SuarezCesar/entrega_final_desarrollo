@@ -1,0 +1,58 @@
+.configContenedorForm {
+  background-color: rgba(96, 96, 119, 0.473);
+  border-radius: 10px;
+}
+
+#mainContactenos {
+  margin-bottom: 2rem;
+  h2 {
+      margin: 2rem;
+  }
+  .configContenedorForm {
+    background-color: rgba(96, 96, 119, 0.473);
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #mainContactenos {
+    width: 75%;
+    margin: 0 auto;
+    .configContenedorForm {
+      width: 100% !important;
+      padding: 1rem 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #mainContactenos {
+    width: 75%;
+    margin: 0 auto;
+    .configContenedorForm {
+      width: 100% !important;
+      padding: 1rem 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #mainContactenos {
+    width: 75%;
+    margin: 0 auto;
+    .configContenedorForm {
+      width: 100% !important;
+      padding: 1rem 1rem;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  #mainContactenos {
+    width: 75%;
+    margin: 0 auto;
+    .configContenedorForm {
+      width: 100% !important;
+      padding: 1rem 1rem;
+    }
+  }
+}
